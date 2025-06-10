@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Search from './components/search';
+import Search from './components/Search';
 import MovieCard from './components/MovieCard';
 import { useDebounce } from 'react-use';
 import { getTrendingMovies, updateSearchCount } from './appwrite';
